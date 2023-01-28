@@ -1,0 +1,98 @@
+const LineExpenseTaxJurisdiction = require("./LineExpenseTaxJurisdiction");
+
+
+class DocumentLineAdditionalExpense {
+    constructor() {
+        this.LineNumber = new Number();
+        this.GroupCode = new Number();
+        this.ExpenseCode = new Number();
+        this.LineTotal = new Number();
+        this.LineTotalFC = new Number();
+        this.LineTotalSys = new Number();
+        this.PaidToDate = new Number();
+        this.PaidToDateFC = new Number();
+        this.PaidToDateSys = new Number();
+        this.TaxLiable = new String();
+        this.VatGroup = new String();
+        this.TaxPercent = new Number();
+        this.TaxSum = new Number();
+        this.TaxSumFC = new Number();
+        this.TaxSumSys = new Number();
+        this.DeductibleTaxSum = new Number();
+        this.DeductibleTaxSumFC = new Number();
+        this.DeductibleTaxSumSys = new Number();
+        this.AquisitionTax = new String();
+        this.TaxCode = new String();
+        this.TaxType = new String();
+        this.TaxPaid = new Number();
+        this.TaxPaidFC = new Number();
+        this.TaxPaidSys = new Number();
+        this.EqualizationTaxPercent = new Number();
+        this.EqualizationTaxSum = new Number();
+        this.EqualizationTaxFC = new Number();
+        this.EqualizationTaxSys = new Number();
+        this.TaxTotalSum = new Number();
+        this.TaxTotalSumFC = new Number();
+        this.TaxTotalSumSys = new Number();
+        this.WTLiable = new String();
+        this.BaseGroup = new Number();
+        this.DistributionRule = new String();
+        this.Project = new String();
+        this.DistributionRule2 = new String();
+        this.DistributionRule3 = new String();
+        this.DistributionRule4 = new String();
+        this.DistributionRule5 = new String();
+        this.ExternalCalcTaxRate = new Number();
+        this.ExternalCalcTaxAmount = new Number();
+        this.ExternalCalcTaxAmountFC = new Number();
+        this.ExternalCalcTaxAmountSC = new Number();
+        this.LineExpenseTaxJurisdictions = [LineExpenseTaxJurisdiction];
+    }
+    LineNumber;
+    GroupCode;
+    ExpenseCode;
+    LineTotal;
+    LineTotalFC;
+    LineTotalSys;
+    PaidToDate;
+    PaidToDateFC;
+    PaidToDateSys;
+    TaxLiable;
+    VatGroup;
+    TaxPercent;
+    TaxSum;
+    TaxSumFC;
+    TaxSumSys;
+    DeductibleTaxSum;
+    DeductibleTaxSumFC;
+    DeductibleTaxSumSys;
+    AquisitionTax;
+    TaxCode;
+    TaxType;
+    TaxPaid;
+    TaxPaidFC;
+    TaxPaidSys;
+    EqualizationTaxPercent;
+    EqualizationTaxSum;
+    EqualizationTaxFC;
+    EqualizationTaxSys;
+    TaxTotalSum;
+    TaxTotalSumFC;
+    TaxTotalSumSys;
+    WTLiable;
+    BaseGroup;
+    DistributionRule;
+    Project;
+    DistributionRule2;
+    DistributionRule3;
+    DistributionRule4;
+    DistributionRule5;
+    ExternalCalcTaxRate;
+    ExternalCalcTaxAmount;
+    ExternalCalcTaxAmountFC;
+    ExternalCalcTaxAmountSC;
+    LineExpenseTaxJurisdictions;
+
+}
+
+module.exports = DocumentLineAdditionalExpense;
